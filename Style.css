@@ -1,0 +1,57 @@
+/*
+    Paulo Ricardo Fodi 
+
+    CSS Separado do HTML para organização.
+*/
+
+body {
+    background: linear-gradient(90deg, rgba(231,233,248,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.tableJogoVelha{
+    margin:auto;
+}
+
+.celula{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background:#d6e8ee;
+    border:none;
+}
+
+h4 {
+    text-align:center;
+    color:black;
+}
+
+.logo {
+    font-family: 'Lobster', cursive; 
+    text-align:center; 
+    color:#16878C; 
+    font-size:40px; 
+    text-shadow: 0px 2px 0px rgba(255,255,255,0.89);
+    margin-top:5%;
+}
+
+.aluno {
+    font-family: 'Montserrat', sans-serif; 
+    text-align:center; 
+    margin-top:-25px; 
+    color:#555555; 
+    font-size:12px;  
+    text-shadow: 0px 2px 0px rgba(255,255,255,0.89);
+}
+
+.aga4{
+    width:140px;
+    font-family: 'Montserrat', sans-serif; 
+    text-align:center; 
+    color:#555555; 
+    font-size:15px;
+    border: 2px dashed #555555;
+    border-radius: 40px;
+    padding:6px;
+    margin:auto;
+    margin-top:15px;
+}

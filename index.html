@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Tic.Tac.Toe - Fumero Edition</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="shortcut icon" href="fav.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+		<!-- <h1 align="center">Jogo da Velha</h1>
+
+		Usuario: é o xxx
+		Computador: é a O -->
+
+		<!-- <i class="far fa-circle"></i> -->
+        <!-- <i class="fas fa-times"></i> -->
+        
+        <p class="logo"><i class="fas fa-hashtag"></i> Tic-Tac-Toe</p>
+        <p class="aluno">Paulo Ricardo Fodi</p>
+	
+		<table style="border:none;" class="tableJogoVelha"  border="1">
+			<tr>
+				<td style="border-radius:3px;" class="celula" id="linha1Coluna1" onclick="adicionarXAqui('linha1Coluna1', 1)"></td>
+				<td style="border-radius:3px;" class="celula" id="linha1Coluna2" onclick="adicionarXAqui('linha1Coluna2', 2)"></td>
+				<td style="border-radius:3px;" class="celula" id="linha1Coluna3" onclick="adicionarXAqui('linha1Coluna3', 3)"></td>
+			</tr>
+			<tr>
+				<td style="border-radius:3px;" class="celula" id="linha2Coluna1"  onclick="adicionarXAqui('linha2Coluna1', 4)"></td>
+				<td style="border-radius:3px;" class="celula" id="linha2Coluna2"  onclick="adicionarXAqui('linha2Coluna2', 5)"></td>
+				<td style="border-radius:3px;" class="celula" id="linha2Coluna3"  onclick="adicionarXAqui('linha2Coluna3', 6)"></td>
+			</tr>
+
+			<tr>
+				<td style="border-radius:3px;" class="celula" id="linha3Coluna1" onclick="adicionarXAqui('linha3Coluna1', 7)"></td>
+				<td style="border-radius:3px;" class="celula" id="linha3Coluna2" onclick="adicionarXAqui('linha3Coluna2', 8)"></td>
+				<td style="border-radius:3px;" class="celula" id="linha3Coluna3" onclick="adicionarXAqui('linha3Coluna3', 9)"></td>
+			</tr>
+		</table>
+
+        <div id="OJogador">    
+             <h4 class="aga4">Vez do jogador: <i style='color:#F2E530' class='fas fa-circle'></i></h4>
+        </div>
+
+</body>
+
+</html>
